@@ -1,0 +1,26 @@
+.details {
+  margin-bottom: 18px; /* Increased spacing slightly */
+}
+
+.summary {
+  color: #e0e0e0; /* Changed from #f5f5f5 to a slightly darker gray */
+  font-size: 16px; /* Increased font size for better readability */
+  font-weight: 600; /* Slightly reduced weight */
+  letter-spacing: 0.5px; /* Added subtle letter spacing */
+}
+
+.channel,
+.published {
+  color: #8a8d91; /* Changed from #6c757d to a softer gray */
+  margin-bottom: 4px; /* Adjusted spacing */
+  margin-top: 5px;
+  font-size: 14px; /* Slightly increased font size */
+  font-style: italic; /* Added a subtle style difference */
+}
+
+.channel > span,
+.published > span {
+  font-weight: 600; /* Reduced weight from 700 */
+  color: #007acc; /* Changed color to a blue shade */
+  text-transform: uppercase; /* Added uppercase transformation */
+}
